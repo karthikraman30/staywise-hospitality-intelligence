@@ -3,7 +3,10 @@ const $ = (selector) => document.querySelector(selector);
 const currency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', notation: 'compact', maximumFractionDigits: 2 });
 const fullCurrency = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
 const percentage = (value) => `${(value * 100).toFixed(1)}%`;
+// Static mode: data.js + store.js compute everything in the browser (GitHub Pages).
+// Server mode: scripts/serve_dashboard.py answers the same routes from the fact table.
 const request = async (route, extras = {}) => {
+  if (window.STAYWISE_STORE) return window.STAYWISE_STORE[route]({ ...state, ...extras });
   const query = new URLSearchParams({ ...state, ...extras });
   return fetch(`${route}?${query}`).then((response) => response.json());
 };

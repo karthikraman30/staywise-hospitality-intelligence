@@ -1,4 +1,4 @@
-.PHONY: all build download powerbi validate demo notebook pg-create pg-load pg-quality pg-validate db-up db-load db-quality db-validate db-down db-sqlite clean
+.PHONY: all build download powerbi validate demo static notebook pg-create pg-load pg-quality pg-validate db-up db-load db-quality db-validate db-down db-sqlite clean
 
 PROJECT_ROOT := $(CURDIR)
 PGDATABASE ?= staywise
@@ -8,6 +8,7 @@ all: build powerbi
 
 build:
 	python3 scripts/build_staywise.py
+	python3 scripts/build_static_dashboard.py
 
 powerbi:
 	python3 scripts/build_powerbi_project.py
@@ -21,6 +22,9 @@ validate:
 
 demo:
 	python3 scripts/serve_dashboard.py
+
+static:
+	python3 scripts/build_static_dashboard.py
 
 notebook:
 	jupyter nbconvert --to notebook --execute --inplace notebooks/StayWise_Analysis_Notebook.ipynb

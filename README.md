@@ -63,15 +63,17 @@ Validate generated outputs:
 make validate
 ```
 
-## Mac Interview Demo
+## Live Dashboard
 
-Run the local decision dashboard with no external services or browser plugins:
+**https://karthikraman30.github.io/staywise-hospitality-intelligence/** — the decision dashboard hosted on GitHub Pages. It runs entirely in the browser on a pre-aggregated cut of the booking fact table (`dashboard/data.js`, built by `make static`); filters, KPI diagnostics, scenario sliders and the ranked recovery backlog all recompute client-side with the same formulas as the Python server.
+
+To run it locally against the full fact table instead:
 
 ```sh
 make demo
 ```
 
-Open `http://127.0.0.1:8000`. The dashboard is backed by the generated booking fact table and supports filters, KPI diagnostics, scenario assumptions, and a ranked recovery backlog.
+Open `http://127.0.0.1:8000`. `scripts/serve_dashboard.py` answers the same `/api/...` routes from `fact_bookings.csv`; `make validate` checks that the two modes reconcile to the executive summary.
 
 ## PostgreSQL Workflow
 
