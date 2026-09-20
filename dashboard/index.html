@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StayWise Decision Console</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">SW</span><div><strong>STAYWISE</strong><small>Revenue decision console</small></div></div>
+    <div class="status"><span class="dot"></span> Portfolio case study <span class="divider"></span> Historical data: Jul 2015-Aug 2017</div>
+  </header>
+  <main>
+    <section class="brief">
+      <div><p class="eyebrow">REVENUE RECOVERY PRIORITY</p><h1>Target revenue leakage where cancellation exposure is highest.</h1></div>
+      <div id="priority-callout" class="priority-callout" aria-live="polite"></div>
+    </section>
+    <section class="filterbar" aria-label="Dashboard filters">
+      <label>Property <select id="property"><option value="">All properties</option></select></label>
+      <label>Arrival month <select id="month"><option value="">All months</option></select></label>
+      <label>Channel <select id="channel"><option value="">All channels</option></select></label>
+      <label>Market segment <select id="segment"><option value="">All segments</option></select></label>
+      <button id="reset" type="button">Reset filters</button>
+    </section>
+    <section id="kpis" class="kpi-grid" aria-label="Executive KPIs"></section>
+    <section class="content-grid primary-grid">
+      <article class="panel trend-panel"><div class="panel-head"><div><p class="eyebrow">MOVEMENT</p><h2>Revenue lost versus realized</h2></div><div class="legend"><span class="realized">Realized</span><span class="lost">Lost</span></div></div><div id="trend-chart" class="chart"></div></article>
+      <article class="panel action-panel"><p class="eyebrow">DECISION</p><h2>Recommended next action</h2><div id="action-summary"></div><div class="guardrail"><strong>Guardrail:</strong> treat the estimated opportunity as a pilot hypothesis, not a guaranteed outcome.</div></article>
+    </section>
+    <section class="content-grid diagnostic-grid">
+      <article class="panel"><div class="panel-head"><div><p class="eyebrow">ROOT CAUSE</p><h2>Highest cancellation-rate drivers</h2></div></div><div id="driver-chart" class="bar-list"></div></article>
+      <article class="panel"><div class="panel-head"><div><p class="eyebrow">CHANNEL ECONOMICS</p><h2>Net revenue after commission</h2></div></div><div id="channel-chart" class="bar-list"></div></article>
+    </section>
+    <section class="content-grid scenario-grid">
+      <article class="panel scenario-panel"><div class="panel-head"><div><p class="eyebrow">SCENARIO PLANNER</p><h2>Test intervention assumptions</h2></div><small>Matches the Excel scenario-model formula</small></div>
+        <div class="scenario-controls">
+          <label>Cancellation reduction <output id="cancel-output">5%</output><input id="cancel-input" type="range" min="0" max="20" value="5"></label>
+          <label>ADR uplift <output id="adr-output">3%</output><input id="adr-input" type="range" min="0" max="15" value="3"></label>
+          <label>Occupancy uplift <output id="occupancy-output">2%</output><input id="occupancy-input" type="range" min="0" max="15" value="2"></label>
+          <label>Channel-mix improvement <output id="mix-output">4%</output><input id="mix-input" type="range" min="0" max="15" value="4"></label>
+        </div>
+        <div id="scenario-results" class="scenario-results"></div>
+      </article>
+      <article class="panel"><div class="panel-head"><div><p class="eyebrow">RISK SEGMENTS</p><h2>Cancellation risk concentration</h2></div><small>Portfolio baseline</small></div><div id="risk-table" class="risk-table"></div></article>
+    </section>
+    <section class="panel table-panel"><div class="panel-head"><div><p class="eyebrow">ACTION BACKLOG</p><h2>Ranked recovery opportunities</h2></div><small>Minimum segment size: 120 bookings</small></div><div class="table-wrap"><table><thead><tr><th>Rank</th><th>Segment</th><th>Channel</th><th>Lead time</th><th>Cancel rate</th><th>Recoverable revenue</th><th>Recommended action</th></tr></thead><tbody id="opportunity-table"></tbody></table></div></section>
+  </main>
+  <footer>Source: public Hotel Booking Demand dataset. Channel costs, inventory, targets, and intervention assumptions are synthetic portfolio context. Revenue opportunity is an estimate for prioritization, not measured causal impact.</footer>
+  <script src="app.js"></script>
+</body>
+</html>

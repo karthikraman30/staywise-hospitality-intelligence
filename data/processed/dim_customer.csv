@@ -1,0 +1,5 @@
+customer_type_id,customer_type
+CT001,Contract
+CT002,Group
+CT003,Transient
+CT004,Transient-Party

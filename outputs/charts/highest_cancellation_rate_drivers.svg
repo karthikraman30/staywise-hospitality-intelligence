@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="32.0" y="40.0" font-family="Arial" font-size="22" font-weight="700" text-anchor="start" fill="#1f2933">Highest Cancellation Rate Drivers</text>
+<text x="32.0" y="66.0" font-family="Arial" font-size="13" font-weight="400" text-anchor="start" fill="#1f2933">Groups with at least 500 bookings; values are cancellation rates.</text>
+<text x="32.0" y="114.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Deposit Type: Non Refund</text>
+<rect x="260" y="92" width="610.0" height="32" rx="4" fill="#2563eb"/>
+<text x="878.0" y="113.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">99.4%</text>
+<text x="32.0" y="162.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Previous Cancellations: 1 previous</text>
+<rect x="260" y="140" width="579.7" height="32" rx="4" fill="#2563eb"/>
+<text x="847.7" y="161.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">94.4%</text>
+<text x="32.0" y="210.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Market Segment: Groups</text>
+<rect x="260" y="188" width="374.9" height="32" rx="4" fill="#2563eb"/>
+<text x="642.9" y="209.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">61.1%</text>
+<text x="32.0" y="258.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Lead Time Band: 181+ days</text>
+<rect x="260" y="236" width="350.0" height="32" rx="4" fill="#2563eb"/>
+<text x="618.0" y="257.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">57.0%</text>
+<text x="32.0" y="306.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Special Requests: No requests</text>
+<rect x="260" y="284" width="293.0" height="32" rx="4" fill="#2563eb"/>
+<text x="561.0" y="305.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">47.7%</text>
+<text x="32.0" y="354.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Lead Time Band: 91-180 days</text>
+<rect x="260" y="332" width="274.5" height="32" rx="4" fill="#2563eb"/>
+<text x="542.5" y="353.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">44.7%</text>
+<text x="32.0" y="402.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Stay Length: 2-3 nights</text>
+<rect x="260" y="380" width="263.8" height="32" rx="4" fill="#2563eb"/>
+<text x="531.8" y="401.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">43.0%</text>
+<text x="32.0" y="450.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Distribution Channel: TA/TO</text>
+<rect x="260" y="428" width="251.9" height="32" rx="4" fill="#2563eb"/>
+<text x="519.9" y="449.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">41.0%</text>
+<text x="32.0" y="496.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="start" fill="#1f2933">Source: StayWise generated analysis from public hotel booking data plus synthetic business context.</text>
+</svg>

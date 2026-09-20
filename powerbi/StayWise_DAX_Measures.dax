@@ -1,0 +1,47 @@
+Total Bookings = COUNTROWS('fact_bookings')
+-- Format: #,0
+
+Cancellations = SUM('fact_bookings'[is_canceled])
+-- Format: #,0
+
+Cancellation Rate = DIVIDE([Cancellations], [Total Bookings])
+-- Format: 0.00%
+
+Potential Revenue = SUM('fact_bookings'[potential_revenue])
+-- Format: $#,0
+
+Realized Revenue = SUM('fact_bookings'[realized_revenue])
+-- Format: $#,0
+
+Lost Revenue = SUM('fact_bookings'[lost_revenue])
+-- Format: $#,0
+
+Cancellation Fee Revenue = SUM('fact_bookings'[cancellation_fee_revenue])
+-- Format: $#,0
+
+Commission Cost = SUM('fact_bookings'[commission_cost])
+-- Format: $#,0
+
+Net Revenue = [Realized Revenue] - [Commission Cost]
+-- Format: $#,0
+
+Room Nights Realized = SUM('fact_bookings'[room_nights_realized])
+-- Format: #,0
+
+Available Room Nights = SUM('fact_daily_inventory'[available_room_nights])
+-- Format: #,0
+
+Occupancy Rate = DIVIDE([Room Nights Realized], [Available Room Nights])
+-- Format: 0.00%
+
+ADR = DIVIDE([Realized Revenue], [Room Nights Realized])
+-- Format: $#,0.00
+
+RevPAR = DIVIDE([Realized Revenue], [Available Room Nights])
+-- Format: $#,0.00
+
+Net RevPAR = DIVIDE([Net Revenue], [Available Room Nights])
+-- Format: $#,0.00
+
+Revenue Opportunity = SUM('segment_opportunity_rankings'[estimated_recoverable_revenue])
+-- Format: $#,0

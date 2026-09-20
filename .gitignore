@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+.ipynb_checkpoints/
+
+# Regenerated artifacts: raw data is downloaded by `make download`, SQLite by `make db-sqlite`.
+data/raw/
+staywise.db

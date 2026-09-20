@@ -1,0 +1,8 @@
+feature,importance_score,business_interpretation,importance_share
+Deposit type,0.1521,Deposit rules materially change cancellation incentives.,0.2316
+Special requests,0.1257,Special requests proxy customer commitment and trip intent.,0.1914
+Lead time,0.1197,Longer booking windows create more exposure to cancellation behavior.,0.1822
+Market segment,0.0795,Customer purpose and acquisition source change booking certainty.,0.121
+Channel,0.0652,Channel behavior affects cancellation rate and net revenue after commission.,0.0993
+Previous cancellations,0.0591,Prior cancellation history indicates repeat risk behavior.,0.09
+Customer type,0.0555,"Contract, group, transient, and party bookings behave differently.",0.0845

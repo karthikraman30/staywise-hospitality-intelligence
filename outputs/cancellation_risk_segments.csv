@@ -1,0 +1,4 @@
+risk_band,bookings,actual_cancellations,actual_cancellation_rate,average_predicted_risk,lost_revenue
+Low risk,38130,5242,0.1375,0.1763,2039110.45
+Medium risk,58089,19559,0.3367,0.3443,9195265.24
+High risk,23171,19423,0.8382,0.7829,2425175.05

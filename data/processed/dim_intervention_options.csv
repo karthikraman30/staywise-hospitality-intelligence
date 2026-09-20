@@ -1,0 +1,5 @@
+intervention_id,intervention_name,primary_driver,owner_role,expected_kpi,implementation_effort
+INT001,Early OTA cancellation deposit test,High-lead-time OTA cancellations,Revenue Manager,Cancellation rate,Medium
+INT002,Direct booking loyalty incentive,Channel profitability,Marketing Lead,Net RevPAR,Medium
+INT003,Low-request booking confirmation workflow,No-special-request cancellation risk,Operations Manager,Realized room nights,Low
+INT004,Shoulder-season occupancy package,Underutilized inventory,General Manager,Occupancy rate,Medium

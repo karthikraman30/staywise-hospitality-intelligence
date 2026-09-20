@@ -1,0 +1,70 @@
+opportunity_id,property_id,property_source,market_segment,distribution_channel,lead_time_band,deposit_type,bookings,cancellations,cancellation_rate,lost_revenue,realized_revenue,commission_cost,achievable_cancellation_reduction,estimated_recoverable_revenue,recommended_intervention,priority_score,priority_rank
+OPP017,P001,Resort Hotel,Online TA,TA/TO,181+ days,No Deposit,2593,1472,0.5677,1195973.68,799181.06,143852.44,0.1282,153351.17,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,170.14,1
+OPP037,P002,City Hotel,Online TA,TA/TO,31-90 days,No Deposit,11728,4659,0.3973,1922646.76,2670765.18,480738.16,0.06,115358.81,Shift demand toward direct booking offer and loyalty capture,137.02,2
+OPP038,P002,City Hotel,Online TA,TA/TO,91-180 days,No Deposit,9414,4050,0.4302,1845763.3,2291734.78,412511.96,0.06,110745.8,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,130.92,3
+OPP061,P002,City Hotel,Online TA,TA/TO,181+ days,No Deposit,4874,2524,0.5178,1120106.14,966447.69,173960.49,0.0958,107341.78,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,125.16,4
+OPP011,P001,Resort Hotel,Online TA,TA/TO,91-180 days,No Deposit,3801,1835,0.4828,1326098.55,1252763.14,225497.36,0.073,96842.88,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,112.71,5
+OPP045,P002,City Hotel,Online TA,TA/TO,8-30 days,No Deposit,7620,2626,0.3446,1098830.96,1691015.43,304382.97,0.06,65929.86,Shift demand toward direct booking offer and loyalty capture,82.17,6
+OPP006,P001,Resort Hotel,Online TA,TA/TO,31-90 days,No Deposit,4675,1851,0.3959,1038895.62,1408892.11,253600.76,0.06,62333.74,Shift demand toward direct booking offer and loyalty capture,76.91,7
+OPP067,P002,City Hotel,Groups,TA/TO,181+ days,Non Refund,4377,4377,1.0,124453.94,705238.75,126940.38,0.35,43558.88,Create resale and capacity-recapture workflow for canceled non-refundable inventory,72.94,8
+OPP065,P002,City Hotel,Offline TA/TO,TA/TO,181+ days,Non Refund,2249,2248,0.9996,87111.09,493990.76,88917.44,0.35,30488.88,Create resale and capacity-recapture workflow for canceled non-refundable inventory,57.73,9
+OPP057,P002,City Hotel,Groups,TA/TO,91-180 days,Non Refund,1699,1699,1.0,79151.43,448524.71,80734.38,0.35,27703.0,Create resale and capacity-recapture workflow for canceled non-refundable inventory,54.4,10
+OPP064,P002,City Hotel,Offline TA/TO,TA/TO,91-180 days,Non Refund,1579,1579,1.0,70969.02,402157.78,72386.97,0.35,24839.16,Create resale and capacity-recapture workflow for canceled non-refundable inventory,51.42,11
+OPP051,P002,City Hotel,Groups,TA/TO,31-90 days,Non Refund,1215,1215,1.0,47247.45,267735.55,48191.89,0.35,16536.61,Create resale and capacity-recapture workflow for canceled non-refundable inventory,42.75,12
+OPP059,P002,City Hotel,Offline TA/TO,TA/TO,31-90 days,Non Refund,806,806,1.0,33668.7,190789.3,34341.99,0.35,11784.04,Create resale and capacity-recapture workflow for canceled non-refundable inventory,37.59,13
+OPP004,P001,Resort Hotel,Online TA,TA/TO,8-30 days,No Deposit,3230,853,0.2641,389696.11,880176.01,158431.62,0.06,23381.77,Shift demand toward direct booking offer and loyalty capture,33.21,14
+OPP032,P001,Resort Hotel,Groups,TA/TO,181+ days,Non Refund,466,465,0.9979,18454.94,104782.91,18860.71,0.35,6459.23,Create resale and capacity-recapture workflow for canceled non-refundable inventory,31.87,15
+OPP063,P002,City Hotel,Groups,TA/TO,181+ days,No Deposit,1976,973,0.4924,184775.39,251949.7,45350.44,0.0793,14651.8,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,28.94,16
+OPP025,P001,Resort Hotel,Groups,TA/TO,91-180 days,Non Refund,384,346,0.901,16898.6,101157.95,18208.43,0.3449,5828.44,Create resale and capacity-recapture workflow for canceled non-refundable inventory,28.74,17
+OPP047,P002,City Hotel,Groups,TA/TO,8-30 days,Non Refund,211,211,1.0,8559.75,48505.63,8730.45,0.35,2995.91,Create resale and capacity-recapture workflow for canceled non-refundable inventory,28.21,18
+OPP062,P002,City Hotel,Offline TA/TO,TA/TO,8-30 days,Non Refund,207,207,1.0,7206.89,40839.16,7351.22,0.35,2522.41,Create resale and capacity-recapture workflow for canceled non-refundable inventory,27.73,19
+OPP024,P001,Resort Hotel,Groups,TA/TO,31-90 days,Non Refund,168,168,1.0,5214.06,29546.24,5318.42,0.35,1824.92,Create resale and capacity-recapture workflow for canceled non-refundable inventory,26.99,20
+OPP029,P001,Resort Hotel,Groups,Direct,91-180 days,Non Refund,172,172,1.0,4803.59,27220.36,544.2,0.35,1681.26,Create resale and capacity-recapture workflow for canceled non-refundable inventory,26.85,21
+OPP031,P001,Resort Hotel,Offline TA/TO,TA/TO,181+ days,Non Refund,121,120,0.9917,4489.82,25707.21,4627.03,0.35,1571.44,Create resale and capacity-recapture workflow for canceled non-refundable inventory,26.49,22
+OPP035,P001,Resort Hotel,Groups,Corporate,181+ days,Non Refund,131,131,1.0,3461.2,19614.8,588.31,0.35,1211.42,Create resale and capacity-recapture workflow for canceled non-refundable inventory,26.34,23
+OPP069,P002,City Hotel,Corporate,Corporate,31-90 days,Non Refund,145,141,0.9724,2588.25,15620.75,468.29,0.35,905.89,Create resale and capacity-recapture workflow for canceled non-refundable inventory,25.36,24
+OPP052,P002,City Hotel,Online TA,TA/TO,0-7 days,No Deposit,4847,558,0.1151,207258.31,1103514.61,198632.78,0.06,12435.5,Shift demand toward direct booking offer and loyalty capture,20.16,25
+OPP041,P002,City Hotel,Offline TA/TO,TA/TO,91-180 days,No Deposit,2793,637,0.2281,188903.84,673566.09,121241.21,0.06,11334.23,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,19.83,26
+OPP015,P001,Resort Hotel,Offline TA/TO,TA/TO,181+ days,No Deposit,1927,375,0.1946,210696.3,1029273.37,185269.1,0.06,12641.78,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,19.43,27
+OPP043,P002,City Hotel,Offline TA/TO,TA/TO,31-90 days,No Deposit,3416,645,0.1888,173027.7,727401.22,130932.07,0.06,10381.66,"Review pricing, cancellation policy, and capacity allocation for segment",18.52,28
+OPP010,P001,Resort Hotel,Offline TA/TO,TA/TO,91-180 days,No Deposit,2051,275,0.1341,185750.26,1093586.45,196845.34,0.06,11145.02,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,16.55,29
+OPP060,P002,City Hotel,Offline TA/TO,TA/TO,181+ days,No Deposit,2913,583,0.2001,143645.47,624901.65,112481.12,0.06,8618.73,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,16.54,30
+OPP056,P002,City Hotel,Direct,Direct,8-30 days,No Deposit,1185,242,0.2042,151296.51,321745.91,6434.98,0.06,9077.79,Use targeted pre-arrival confirmation and upsell messaging,15.37,31
+OPP009,P001,Resort Hotel,Direct,Direct,31-90 days,No Deposit,1126,217,0.1927,155613.93,638908.24,12778.2,0.06,9336.84,"Review pricing, cancellation policy, and capacity allocation for segment",15.28,32
+OPP021,P001,Resort Hotel,Groups,TA/TO,181+ days,No Deposit,1221,378,0.3096,104027.51,230448.05,41480.6,0.06,6241.65,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,15.2,33
+OPP012,P001,Resort Hotel,Direct,Direct,91-180 days,No Deposit,797,156,0.1957,146948.07,611885.61,12237.75,0.06,8816.88,"Review pricing, cancellation policy, and capacity allocation for segment",14.51,34
+OPP044,P002,City Hotel,Direct,Direct,31-90 days,No Deposit,1228,273,0.2223,121762.39,384070.44,7681.37,0.06,7305.74,"Review pricing, cancellation policy, and capacity allocation for segment",14.09,35
+OPP001,P001,Resort Hotel,Direct,Direct,181+ days,No Deposit,467,129,0.2762,100363.92,319858.56,6397.13,0.06,6021.84,"Review pricing, cancellation policy, and capacity allocation for segment",13.39,36
+OPP018,P001,Resort Hotel,Corporate,Corporate,31-90 days,No Deposit,375,148,0.3947,48590.2,44659.18,1339.76,0.06,2915.41,Test flexible deposit rules for high-risk no-deposit bookings,13.16,37
+OPP040,P002,City Hotel,Groups,TA/TO,31-90 days,No Deposit,1661,375,0.2258,78968.47,252147.46,45386.27,0.06,4738.11,"Review pricing, cancellation policy, and capacity allocation for segment",12.04,38
+OPP022,P001,Resort Hotel,Groups,TA/TO,31-90 days,No Deposit,402,148,0.3682,31682.0,62782.34,11300.89,0.06,1900.92,Test flexible deposit rules for high-risk no-deposit bookings,11.51,39
+OPP048,P002,City Hotel,Direct,Direct,91-180 days,No Deposit,995,184,0.1849,95662.74,387354.13,7747.19,0.06,5739.76,"Review pricing, cancellation policy, and capacity allocation for segment",11.36,40
+OPP049,P002,City Hotel,Groups,TA/TO,91-180 days,No Deposit,1305,350,0.2682,53788.81,178942.58,32209.68,0.06,3227.33,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,11.24,41
+OPP005,P001,Resort Hotel,Direct,Direct,8-30 days,No Deposit,1040,194,0.1865,90575.53,388848.52,7776.98,0.06,5434.53,Use targeted pre-arrival confirmation and upsell messaging,11.14,42
+OPP007,P001,Resort Hotel,Offline TA/TO,TA/TO,31-90 days,No Deposit,1521,177,0.1164,85631.36,637165.55,114689.75,0.06,5137.88,"Review pricing, cancellation policy, and capacity allocation for segment",9.57,43
+OPP042,P002,City Hotel,Groups,TA/TO,8-30 days,No Deposit,783,191,0.2439,41847.17,179354.51,32283.78,0.06,2510.83,Use targeted pre-arrival confirmation and upsell messaging,9.39,44
+OPP023,P001,Resort Hotel,Groups,TA/TO,8-30 days,No Deposit,267,85,0.3184,15211.15,45165.46,8129.77,0.06,912.67,Use targeted pre-arrival confirmation and upsell messaging,9.14,45
+OPP066,P002,City Hotel,Direct,Direct,181+ days,No Deposit,364,90,0.2473,33259.1,114461.27,2289.21,0.06,1995.55,"Review pricing, cancellation policy, and capacity allocation for segment",8.54,46
+OPP046,P002,City Hotel,Direct,Direct,0-7 days,No Deposit,2257,245,0.1086,58014.1,440981.02,8819.65,0.06,3480.85,Use targeted pre-arrival confirmation and upsell messaging,8.45,47
+OPP020,P001,Resort Hotel,Groups,TA/TO,91-180 days,No Deposit,526,114,0.2167,37252.0,139756.45,25156.13,0.06,2235.12,Pilot staged deposit or reconfirmation workflow for high-lead OTA bookings,8.18,48
+OPP019,P001,Resort Hotel,Groups,Direct,31-90 days,No Deposit,302,69,0.2285,21327.17,65537.77,1310.71,0.06,1279.63,"Review pricing, cancellation policy, and capacity allocation for segment",7.29,49
+OPP013,P001,Resort Hotel,Online TA,TA/TO,0-7 days,No Deposit,3306,196,0.0593,41384.31,588705.74,105967.06,0.06,2483.06,Shift demand toward direct booking offer and loyalty capture,7.27,50
+OPP036,P002,City Hotel,Offline TA/TO,TA/TO,0-7 days,No Deposit,1114,174,0.1562,32675.05,177045.53,31868.18,0.06,1960.5,Use targeted pre-arrival confirmation and upsell messaging,6.98,51
+OPP055,P002,City Hotel,Offline TA/TO,TA/TO,8-30 days,No Deposit,1410,173,0.1227,39192.94,311706.5,56107.11,0.06,2351.58,Use targeted pre-arrival confirmation and upsell messaging,6.83,52
+OPP016,P001,Resort Hotel,Offline TA/TO,TA/TO,8-30 days,No Deposit,945,113,0.1196,36299.35,243493.26,43828.67,0.06,2177.96,Use targeted pre-arrival confirmation and upsell messaging,6.11,53
+OPP002,P001,Resort Hotel,Direct,Direct,0-7 days,No Deposit,2795,165,0.059,29133.63,407098.56,8141.93,0.06,1748.02,Use targeted pre-arrival confirmation and upsell messaging,6.02,54
+OPP068,P002,City Hotel,Aviation,Corporate,0-7 days,No Deposit,183,38,0.2077,10502.0,46396.36,1391.89,0.06,630.12,Use targeted pre-arrival confirmation and upsell messaging,6.0,55
+OPP003,P001,Resort Hotel,Corporate,Corporate,8-30 days,No Deposit,469,76,0.162,17040.11,61589.46,1847.65,0.06,1022.41,Use targeted pre-arrival confirmation and upsell messaging,5.54,56
+OPP054,P002,City Hotel,Corporate,Corporate,8-30 days,No Deposit,727,105,0.1444,18603.12,104968.42,3149.03,0.06,1116.19,Use targeted pre-arrival confirmation and upsell messaging,5.45,57
+OPP058,P002,City Hotel,Corporate,Corporate,31-90 days,No Deposit,283,45,0.159,8584.02,37235.68,1117.05,0.06,515.04,"Review pricing, cancellation policy, and capacity allocation for segment",4.77,58
+OPP028,P001,Resort Hotel,Groups,Corporate,8-30 days,No Deposit,146,24,0.1644,6648.0,17415.5,522.46,0.06,398.88,Use targeted pre-arrival confirmation and upsell messaging,4.65,59
+OPP039,P002,City Hotel,Groups,TA/TO,0-7 days,No Deposit,328,48,0.1463,10972.2,58720.03,10569.61,0.06,658.33,Use targeted pre-arrival confirmation and upsell messaging,4.64,60
+OPP053,P002,City Hotel,Corporate,Corporate,0-7 days,No Deposit,1281,102,0.0796,16121.9,166224.77,4986.76,0.06,967.31,Use targeted pre-arrival confirmation and upsell messaging,4.24,61
+OPP030,P001,Resort Hotel,Groups,Direct,91-180 days,No Deposit,161,23,0.1429,1773.85,35910.58,718.21,0.06,106.43,"Review pricing, cancellation policy, and capacity allocation for segment",3.84,62
+OPP026,P001,Resort Hotel,Groups,Direct,181+ days,No Deposit,358,36,0.1006,14282.91,106515.25,2130.23,0.06,856.97,"Review pricing, cancellation policy, and capacity allocation for segment",3.73,63
+OPP008,P001,Resort Hotel,Corporate,Corporate,0-7 days,No Deposit,1251,92,0.0735,8317.54,81246.27,2437.32,0.06,499.05,Use targeted pre-arrival confirmation and upsell messaging,3.59,64
+OPP033,P001,Resort Hotel,Groups,Corporate,181+ days,No Deposit,306,25,0.0817,11171.0,74933.67,2247.83,0.06,670.26,"Review pricing, cancellation policy, and capacity allocation for segment",3.02,65
+OPP050,P002,City Hotel,Complementary,Direct,0-7 days,No Deposit,330,34,0.103,0.0,1444.0,28.88,0.06,0.0,Use targeted pre-arrival confirmation and upsell messaging,2.91,66
+OPP014,P001,Resort Hotel,Offline TA/TO,TA/TO,0-7 days,No Deposit,851,45,0.0529,11148.26,99197.93,17855.6,0.06,668.9,Use targeted pre-arrival confirmation and upsell messaging,2.84,67
+OPP027,P001,Resort Hotel,Groups,Corporate,0-7 days,No Deposit,155,13,0.0839,2266.0,23368.79,701.05,0.06,135.96,Use targeted pre-arrival confirmation and upsell messaging,2.39,68
+OPP034,P001,Resort Hotel,Direct,TA/TO,0-7 days,No Deposit,125,0,0.0,0.0,19153.84,3447.68,0.06,0.0,Use targeted pre-arrival confirmation and upsell messaging,0.12,69

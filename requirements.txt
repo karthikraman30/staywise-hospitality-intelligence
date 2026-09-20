@@ -1,0 +1,6 @@
+# The build pipeline (scripts/build_staywise.py) and dashboard use only the Python standard library.
+# These packages are needed only for the analysis notebook in notebooks/.
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.9
+jupyter>=1.0

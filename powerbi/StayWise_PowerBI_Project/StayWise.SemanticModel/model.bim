@@ -1,0 +1,1559 @@
+{
+  "name": "StayWise",
+  "compatibilityLevel": 1600,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "expressions": [
+      {
+        "name": "ProjectRoot",
+        "kind": "m",
+        "expression": "\"/Users/karthikraman/projects/staywise-hospitality-intelligence\""
+      }
+    ],
+    "tables": [
+      {
+        "name": "fact_bookings",
+        "columns": [
+          {
+            "name": "booking_id",
+            "dataType": "string",
+            "sourceColumn": "booking_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "arrival_date",
+            "dataType": "dateTime",
+            "sourceColumn": "arrival_date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date_id",
+            "dataType": "int64",
+            "sourceColumn": "date_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "arrival_year_month",
+            "dataType": "string",
+            "sourceColumn": "arrival_year_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_id",
+            "dataType": "string",
+            "sourceColumn": "property_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "channel_id",
+            "dataType": "string",
+            "sourceColumn": "channel_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "market_segment_id",
+            "dataType": "string",
+            "sourceColumn": "market_segment_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "customer_type_id",
+            "dataType": "string",
+            "sourceColumn": "customer_type_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "room_type_id",
+            "dataType": "string",
+            "sourceColumn": "room_type_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "country_id",
+            "dataType": "string",
+            "sourceColumn": "country_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hotel_source",
+            "dataType": "string",
+            "sourceColumn": "hotel_source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "distribution_channel",
+            "dataType": "string",
+            "sourceColumn": "distribution_channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "market_segment",
+            "dataType": "string",
+            "sourceColumn": "market_segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "customer_type",
+            "dataType": "string",
+            "sourceColumn": "customer_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "reserved_room_type",
+            "dataType": "string",
+            "sourceColumn": "reserved_room_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "deposit_type",
+            "dataType": "string",
+            "sourceColumn": "deposit_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "reservation_status",
+            "dataType": "string",
+            "sourceColumn": "reservation_status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "lead_time",
+            "dataType": "double",
+            "sourceColumn": "lead_time",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lead_time_band",
+            "dataType": "string",
+            "sourceColumn": "lead_time_band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "stay_nights",
+            "dataType": "int64",
+            "sourceColumn": "stay_nights",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "stay_band",
+            "dataType": "string",
+            "sourceColumn": "stay_band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "guests",
+            "dataType": "int64",
+            "sourceColumn": "guests",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "adr",
+            "dataType": "double",
+            "sourceColumn": "adr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "is_canceled",
+            "dataType": "double",
+            "sourceColumn": "is_canceled",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "potential_revenue",
+            "dataType": "double",
+            "sourceColumn": "potential_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "stay_revenue",
+            "dataType": "double",
+            "sourceColumn": "stay_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "realized_revenue",
+            "dataType": "double",
+            "sourceColumn": "realized_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lost_revenue",
+            "dataType": "double",
+            "sourceColumn": "lost_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "deposit_recovery_rate",
+            "dataType": "double",
+            "sourceColumn": "deposit_recovery_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellation_fee_revenue",
+            "dataType": "double",
+            "sourceColumn": "cancellation_fee_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "commission_rate",
+            "dataType": "double",
+            "sourceColumn": "commission_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "commission_cost",
+            "dataType": "double",
+            "sourceColumn": "commission_cost",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "net_revenue",
+            "dataType": "double",
+            "sourceColumn": "net_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "room_nights_booked",
+            "dataType": "int64",
+            "sourceColumn": "room_nights_booked",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "room_nights_realized",
+            "dataType": "int64",
+            "sourceColumn": "room_nights_realized",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "previous_cancellations",
+            "dataType": "int64",
+            "sourceColumn": "previous_cancellations",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "previous_cancel_band",
+            "dataType": "string",
+            "sourceColumn": "previous_cancel_band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "total_special_requests",
+            "dataType": "double",
+            "sourceColumn": "total_special_requests",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "special_request_band",
+            "dataType": "string",
+            "sourceColumn": "special_request_band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "booking_changes",
+            "dataType": "double",
+            "sourceColumn": "booking_changes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "days_in_waiting_list",
+            "dataType": "double",
+            "sourceColumn": "days_in_waiting_list",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "required_car_parking_spaces",
+            "dataType": "double",
+            "sourceColumn": "required_car_parking_spaces",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "room_mismatch_flag",
+            "dataType": "double",
+            "sourceColumn": "room_mismatch_flag",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_bookings",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/fact_bookings.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"booking_id\", type text}, {\"arrival_date\", type date}, {\"date_id\", Int64.Type}, {\"arrival_year_month\", type text}, {\"property_id\", type text}, {\"channel_id\", type text}, {\"market_segment_id\", type text}, {\"customer_type_id\", type text}, {\"room_type_id\", type text}, {\"country_id\", type text}, {\"hotel_source\", type text}, {\"distribution_channel\", type text}, {\"market_segment\", type text}, {\"customer_type\", type text}, {\"reserved_room_type\", type text}, {\"deposit_type\", type text}, {\"reservation_status\", type text}, {\"lead_time\", type number}, {\"lead_time_band\", type text}, {\"stay_nights\", Int64.Type}, {\"stay_band\", type text}, {\"guests\", Int64.Type}, {\"adr\", type number}, {\"is_canceled\", type number}, {\"potential_revenue\", type number}, {\"stay_revenue\", type number}, {\"realized_revenue\", type number}, {\"lost_revenue\", type number}, {\"deposit_recovery_rate\", type number}, {\"cancellation_fee_revenue\", type number}, {\"commission_rate\", type number}, {\"commission_cost\", type number}, {\"net_revenue\", type number}, {\"room_nights_booked\", Int64.Type}, {\"room_nights_realized\", Int64.Type}, {\"previous_cancellations\", Int64.Type}, {\"previous_cancel_band\", type text}, {\"total_special_requests\", type number}, {\"special_request_band\", type text}, {\"booking_changes\", type number}, {\"days_in_waiting_list\", type number}, {\"required_car_parking_spaces\", type number}, {\"room_mismatch_flag\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Total Bookings",
+            "expression": "COUNTROWS('fact_bookings')",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Cancellations",
+            "expression": "SUM('fact_bookings'[is_canceled])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Cancellation Rate",
+            "expression": "DIVIDE([Cancellations], [Total Bookings])",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Potential Revenue",
+            "expression": "SUM('fact_bookings'[potential_revenue])",
+            "formatString": "$#,0"
+          },
+          {
+            "name": "Realized Revenue",
+            "expression": "SUM('fact_bookings'[realized_revenue])",
+            "formatString": "$#,0"
+          },
+          {
+            "name": "Lost Revenue",
+            "expression": "SUM('fact_bookings'[lost_revenue])",
+            "formatString": "$#,0"
+          },
+          {
+            "name": "Cancellation Fee Revenue",
+            "expression": "SUM('fact_bookings'[cancellation_fee_revenue])",
+            "formatString": "$#,0"
+          },
+          {
+            "name": "Commission Cost",
+            "expression": "SUM('fact_bookings'[commission_cost])",
+            "formatString": "$#,0"
+          },
+          {
+            "name": "Net Revenue",
+            "expression": "[Realized Revenue] - [Commission Cost]",
+            "formatString": "$#,0"
+          },
+          {
+            "name": "Room Nights Realized",
+            "expression": "SUM('fact_bookings'[room_nights_realized])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Available Room Nights",
+            "expression": "SUM('fact_daily_inventory'[available_room_nights])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Occupancy Rate",
+            "expression": "DIVIDE([Room Nights Realized], [Available Room Nights])",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "ADR",
+            "expression": "DIVIDE([Realized Revenue], [Room Nights Realized])",
+            "formatString": "$#,0.00"
+          },
+          {
+            "name": "RevPAR",
+            "expression": "DIVIDE([Realized Revenue], [Available Room Nights])",
+            "formatString": "$#,0.00"
+          },
+          {
+            "name": "Net RevPAR",
+            "expression": "DIVIDE([Net Revenue], [Available Room Nights])",
+            "formatString": "$#,0.00"
+          },
+          {
+            "name": "Revenue Opportunity",
+            "expression": "SUM('segment_opportunity_rankings'[estimated_recoverable_revenue])",
+            "formatString": "$#,0"
+          }
+        ]
+      },
+      {
+        "name": "fact_daily_inventory",
+        "columns": [
+          {
+            "name": "date_id",
+            "dataType": "int64",
+            "sourceColumn": "date_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_id",
+            "dataType": "string",
+            "sourceColumn": "property_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "room_count",
+            "dataType": "int64",
+            "sourceColumn": "room_count",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "available_room_nights",
+            "dataType": "int64",
+            "sourceColumn": "available_room_nights",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "source_type",
+            "dataType": "string",
+            "sourceColumn": "source_type",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_daily_inventory",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/fact_daily_inventory.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"date_id\", Int64.Type}, {\"date\", type date}, {\"property_id\", type text}, {\"room_count\", Int64.Type}, {\"available_room_nights\", Int64.Type}, {\"source_type\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_date",
+        "columns": [
+          {
+            "name": "date_id",
+            "dataType": "int64",
+            "sourceColumn": "date_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year",
+            "dataType": "int64",
+            "sourceColumn": "year",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "month_number",
+            "dataType": "int64",
+            "sourceColumn": "month_number",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "month_name",
+            "dataType": "string",
+            "sourceColumn": "month_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "quarter",
+            "dataType": "string",
+            "sourceColumn": "quarter",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year_month",
+            "dataType": "string",
+            "sourceColumn": "year_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "day_of_week",
+            "dataType": "string",
+            "sourceColumn": "day_of_week",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "is_weekend",
+            "dataType": "double",
+            "sourceColumn": "is_weekend",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_date",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/dim_date.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"date_id\", Int64.Type}, {\"date\", type date}, {\"year\", Int64.Type}, {\"month_number\", Int64.Type}, {\"month_name\", type text}, {\"quarter\", type text}, {\"year_month\", type text}, {\"day_of_week\", type text}, {\"is_weekend\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_property",
+        "columns": [
+          {
+            "name": "property_id",
+            "dataType": "string",
+            "sourceColumn": "property_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_name",
+            "dataType": "string",
+            "sourceColumn": "property_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_type",
+            "dataType": "string",
+            "sourceColumn": "property_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "city",
+            "dataType": "string",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "country",
+            "dataType": "string",
+            "sourceColumn": "country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "room_count",
+            "dataType": "int64",
+            "sourceColumn": "room_count",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "target_adr",
+            "dataType": "double",
+            "sourceColumn": "target_adr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "target_occupancy",
+            "dataType": "double",
+            "sourceColumn": "target_occupancy",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_property",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/dim_property.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"property_id\", type text}, {\"property_name\", type text}, {\"property_type\", type text}, {\"city\", type text}, {\"country\", type text}, {\"room_count\", Int64.Type}, {\"target_adr\", type number}, {\"target_occupancy\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_channel",
+        "columns": [
+          {
+            "name": "channel_id",
+            "dataType": "string",
+            "sourceColumn": "channel_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "distribution_channel",
+            "dataType": "string",
+            "sourceColumn": "distribution_channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "channel_name",
+            "dataType": "string",
+            "sourceColumn": "channel_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "channel_group",
+            "dataType": "string",
+            "sourceColumn": "channel_group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "commission_rate",
+            "dataType": "double",
+            "sourceColumn": "commission_rate",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_channel",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/dim_channel.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"channel_id\", type text}, {\"distribution_channel\", type text}, {\"channel_name\", type text}, {\"channel_group\", type text}, {\"commission_rate\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_market_segment",
+        "columns": [
+          {
+            "name": "market_segment_id",
+            "dataType": "string",
+            "sourceColumn": "market_segment_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "market_segment",
+            "dataType": "string",
+            "sourceColumn": "market_segment",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_market_segment",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/dim_market_segment.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"market_segment_id\", type text}, {\"market_segment\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_customer",
+        "columns": [
+          {
+            "name": "customer_type_id",
+            "dataType": "string",
+            "sourceColumn": "customer_type_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "customer_type",
+            "dataType": "string",
+            "sourceColumn": "customer_type",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_customer",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/dim_customer.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"customer_type_id\", type text}, {\"customer_type\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_room_type",
+        "columns": [
+          {
+            "name": "room_type_id",
+            "dataType": "string",
+            "sourceColumn": "room_type_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "room_type",
+            "dataType": "string",
+            "sourceColumn": "room_type",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_room_type",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/dim_room_type.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"room_type_id\", type text}, {\"room_type\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_country",
+        "columns": [
+          {
+            "name": "country_id",
+            "dataType": "string",
+            "sourceColumn": "country_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "country_code",
+            "dataType": "string",
+            "sourceColumn": "country_code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "country_name",
+            "dataType": "string",
+            "sourceColumn": "country_name",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_country",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/dim_country.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"country_id\", type text}, {\"country_code\", type text}, {\"country_name\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_monthly_targets",
+        "columns": [
+          {
+            "name": "target_id",
+            "dataType": "string",
+            "sourceColumn": "target_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year_month",
+            "dataType": "string",
+            "sourceColumn": "year_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_id",
+            "dataType": "string",
+            "sourceColumn": "property_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "target_occupancy",
+            "dataType": "double",
+            "sourceColumn": "target_occupancy",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "target_adr",
+            "dataType": "double",
+            "sourceColumn": "target_adr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "target_cancellation_rate",
+            "dataType": "double",
+            "sourceColumn": "target_cancellation_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "source_type",
+            "dataType": "string",
+            "sourceColumn": "source_type",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_monthly_targets",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/fact_monthly_targets.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"target_id\", type text}, {\"year_month\", type text}, {\"property_id\", type text}, {\"target_occupancy\", type number}, {\"target_adr\", type number}, {\"target_cancellation_rate\", type number}, {\"source_type\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "fact_local_events",
+        "columns": [
+          {
+            "name": "event_id",
+            "dataType": "string",
+            "sourceColumn": "event_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "year_month",
+            "dataType": "string",
+            "sourceColumn": "year_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_id",
+            "dataType": "string",
+            "sourceColumn": "property_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "local_event_intensity_index",
+            "dataType": "double",
+            "sourceColumn": "local_event_intensity_index",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "competitor_rate_index",
+            "dataType": "double",
+            "sourceColumn": "competitor_rate_index",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "source_type",
+            "dataType": "string",
+            "sourceColumn": "source_type",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fact_local_events",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/fact_local_events.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"event_id\", type text}, {\"year_month\", type text}, {\"property_id\", type text}, {\"local_event_intensity_index\", type number}, {\"competitor_rate_index\", type number}, {\"source_type\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "monthly_kpi_summary",
+        "columns": [
+          {
+            "name": "bookings",
+            "dataType": "int64",
+            "sourceColumn": "bookings",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellations",
+            "dataType": "int64",
+            "sourceColumn": "cancellations",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellation_rate",
+            "dataType": "double",
+            "sourceColumn": "cancellation_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "potential_revenue",
+            "dataType": "double",
+            "sourceColumn": "potential_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "stay_revenue",
+            "dataType": "double",
+            "sourceColumn": "stay_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "realized_revenue",
+            "dataType": "double",
+            "sourceColumn": "realized_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lost_revenue",
+            "dataType": "double",
+            "sourceColumn": "lost_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellation_fee_revenue",
+            "dataType": "double",
+            "sourceColumn": "cancellation_fee_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "room_nights_realized",
+            "dataType": "int64",
+            "sourceColumn": "room_nights_realized",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "room_nights_booked",
+            "dataType": "int64",
+            "sourceColumn": "room_nights_booked",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "adr",
+            "dataType": "double",
+            "sourceColumn": "adr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "year_month",
+            "dataType": "string",
+            "sourceColumn": "year_month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_id",
+            "dataType": "string",
+            "sourceColumn": "property_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_name",
+            "dataType": "string",
+            "sourceColumn": "property_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_type",
+            "dataType": "string",
+            "sourceColumn": "property_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "available_room_nights",
+            "dataType": "int64",
+            "sourceColumn": "available_room_nights",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "occupancy_rate",
+            "dataType": "double",
+            "sourceColumn": "occupancy_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "revpar",
+            "dataType": "double",
+            "sourceColumn": "revpar",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "net_revpar",
+            "dataType": "double",
+            "sourceColumn": "net_revpar",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "monthly_kpi_summary",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/monthly_kpi_summary.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"bookings\", Int64.Type}, {\"cancellations\", Int64.Type}, {\"cancellation_rate\", type number}, {\"potential_revenue\", type number}, {\"stay_revenue\", type number}, {\"realized_revenue\", type number}, {\"lost_revenue\", type number}, {\"cancellation_fee_revenue\", type number}, {\"room_nights_realized\", Int64.Type}, {\"room_nights_booked\", Int64.Type}, {\"adr\", type number}, {\"year_month\", type text}, {\"property_id\", type text}, {\"property_name\", type text}, {\"property_type\", type text}, {\"available_room_nights\", Int64.Type}, {\"occupancy_rate\", type number}, {\"revpar\", type number}, {\"net_revpar\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "channel_profitability",
+        "columns": [
+          {
+            "name": "bookings",
+            "dataType": "int64",
+            "sourceColumn": "bookings",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellations",
+            "dataType": "int64",
+            "sourceColumn": "cancellations",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellation_rate",
+            "dataType": "double",
+            "sourceColumn": "cancellation_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "potential_revenue",
+            "dataType": "double",
+            "sourceColumn": "potential_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "stay_revenue",
+            "dataType": "double",
+            "sourceColumn": "stay_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "realized_revenue",
+            "dataType": "double",
+            "sourceColumn": "realized_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lost_revenue",
+            "dataType": "double",
+            "sourceColumn": "lost_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellation_fee_revenue",
+            "dataType": "double",
+            "sourceColumn": "cancellation_fee_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "room_nights_realized",
+            "dataType": "int64",
+            "sourceColumn": "room_nights_realized",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "room_nights_booked",
+            "dataType": "int64",
+            "sourceColumn": "room_nights_booked",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "adr",
+            "dataType": "double",
+            "sourceColumn": "adr",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "property_id",
+            "dataType": "string",
+            "sourceColumn": "property_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_name",
+            "dataType": "string",
+            "sourceColumn": "property_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_type",
+            "dataType": "string",
+            "sourceColumn": "property_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "distribution_channel",
+            "dataType": "string",
+            "sourceColumn": "distribution_channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "commission_rate",
+            "dataType": "double",
+            "sourceColumn": "commission_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "commission_cost",
+            "dataType": "double",
+            "sourceColumn": "commission_cost",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "net_revenue",
+            "dataType": "double",
+            "sourceColumn": "net_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "net_revenue_per_booking",
+            "dataType": "double",
+            "sourceColumn": "net_revenue_per_booking",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "channel_profitability",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/data/processed/channel_profitability.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"bookings\", Int64.Type}, {\"cancellations\", Int64.Type}, {\"cancellation_rate\", type number}, {\"potential_revenue\", type number}, {\"stay_revenue\", type number}, {\"realized_revenue\", type number}, {\"lost_revenue\", type number}, {\"cancellation_fee_revenue\", type number}, {\"room_nights_realized\", Int64.Type}, {\"room_nights_booked\", Int64.Type}, {\"adr\", type number}, {\"property_id\", type text}, {\"property_name\", type text}, {\"property_type\", type text}, {\"distribution_channel\", type text}, {\"commission_rate\", type number}, {\"commission_cost\", type number}, {\"net_revenue\", type number}, {\"net_revenue_per_booking\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "segment_opportunity_rankings",
+        "columns": [
+          {
+            "name": "opportunity_id",
+            "dataType": "string",
+            "sourceColumn": "opportunity_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_id",
+            "dataType": "string",
+            "sourceColumn": "property_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "property_source",
+            "dataType": "string",
+            "sourceColumn": "property_source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "market_segment",
+            "dataType": "string",
+            "sourceColumn": "market_segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "distribution_channel",
+            "dataType": "string",
+            "sourceColumn": "distribution_channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "lead_time_band",
+            "dataType": "string",
+            "sourceColumn": "lead_time_band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "deposit_type",
+            "dataType": "string",
+            "sourceColumn": "deposit_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bookings",
+            "dataType": "int64",
+            "sourceColumn": "bookings",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellations",
+            "dataType": "int64",
+            "sourceColumn": "cancellations",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellation_rate",
+            "dataType": "double",
+            "sourceColumn": "cancellation_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lost_revenue",
+            "dataType": "double",
+            "sourceColumn": "lost_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "realized_revenue",
+            "dataType": "double",
+            "sourceColumn": "realized_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "commission_cost",
+            "dataType": "double",
+            "sourceColumn": "commission_cost",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "achievable_cancellation_reduction",
+            "dataType": "double",
+            "sourceColumn": "achievable_cancellation_reduction",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "estimated_recoverable_revenue",
+            "dataType": "double",
+            "sourceColumn": "estimated_recoverable_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "recommended_intervention",
+            "dataType": "string",
+            "sourceColumn": "recommended_intervention",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "priority_score",
+            "dataType": "double",
+            "sourceColumn": "priority_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "priority_rank",
+            "dataType": "int64",
+            "sourceColumn": "priority_rank",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "segment_opportunity_rankings",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/outputs/segment_opportunity_rankings.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"opportunity_id\", type text}, {\"property_id\", type text}, {\"property_source\", type text}, {\"market_segment\", type text}, {\"distribution_channel\", type text}, {\"lead_time_band\", type text}, {\"deposit_type\", type text}, {\"bookings\", Int64.Type}, {\"cancellations\", Int64.Type}, {\"cancellation_rate\", type number}, {\"lost_revenue\", type number}, {\"realized_revenue\", type number}, {\"commission_cost\", type number}, {\"achievable_cancellation_reduction\", type number}, {\"estimated_recoverable_revenue\", type number}, {\"recommended_intervention\", type text}, {\"priority_score\", type number}, {\"priority_rank\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "cancellation_driver_analysis",
+        "columns": [
+          {
+            "name": "driver_type",
+            "dataType": "string",
+            "sourceColumn": "driver_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "driver_value",
+            "dataType": "string",
+            "sourceColumn": "driver_value",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bookings",
+            "dataType": "int64",
+            "sourceColumn": "bookings",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellations",
+            "dataType": "int64",
+            "sourceColumn": "cancellations",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellation_rate",
+            "dataType": "double",
+            "sourceColumn": "cancellation_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancellation_rate_lift_vs_average",
+            "dataType": "double",
+            "sourceColumn": "cancellation_rate_lift_vs_average",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lost_revenue",
+            "dataType": "double",
+            "sourceColumn": "lost_revenue",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "realized_revenue",
+            "dataType": "double",
+            "sourceColumn": "realized_revenue",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "cancellation_driver_analysis",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/outputs/cancellation_driver_analysis.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"driver_type\", type text}, {\"driver_value\", type text}, {\"bookings\", Int64.Type}, {\"cancellations\", Int64.Type}, {\"cancellation_rate\", type number}, {\"cancellation_rate_lift_vs_average\", type number}, {\"lost_revenue\", type number}, {\"realized_revenue\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "model_feature_importance",
+        "columns": [
+          {
+            "name": "feature",
+            "dataType": "string",
+            "sourceColumn": "feature",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "importance_score",
+            "dataType": "double",
+            "sourceColumn": "importance_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "business_interpretation",
+            "dataType": "string",
+            "sourceColumn": "business_interpretation",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "importance_share",
+            "dataType": "double",
+            "sourceColumn": "importance_share",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "model_feature_importance",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/outputs/model_feature_importance.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"feature\", type text}, {\"importance_score\", type number}, {\"business_interpretation\", type text}, {\"importance_share\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "cancellation_risk_segments",
+        "columns": [
+          {
+            "name": "risk_band",
+            "dataType": "string",
+            "sourceColumn": "risk_band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "bookings",
+            "dataType": "int64",
+            "sourceColumn": "bookings",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "actual_cancellations",
+            "dataType": "int64",
+            "sourceColumn": "actual_cancellations",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "actual_cancellation_rate",
+            "dataType": "double",
+            "sourceColumn": "actual_cancellation_rate",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "average_predicted_risk",
+            "dataType": "double",
+            "sourceColumn": "average_predicted_risk",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lost_revenue",
+            "dataType": "double",
+            "sourceColumn": "lost_revenue",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "cancellation_risk_segments",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(ProjectRoot & \"/outputs/cancellation_risk_segments.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"risk_band\", type text}, {\"bookings\", Int64.Type}, {\"actual_cancellations\", Int64.Type}, {\"actual_cancellation_rate\", type number}, {\"average_predicted_risk\", type number}, {\"lost_revenue\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "fact_bookings_date_id_to_dim_date_date_id",
+        "fromTable": "fact_bookings",
+        "fromColumn": "date_id",
+        "toTable": "dim_date",
+        "toColumn": "date_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "fact_bookings_property_id_to_dim_property_property_id",
+        "fromTable": "fact_bookings",
+        "fromColumn": "property_id",
+        "toTable": "dim_property",
+        "toColumn": "property_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "fact_bookings_channel_id_to_dim_channel_channel_id",
+        "fromTable": "fact_bookings",
+        "fromColumn": "channel_id",
+        "toTable": "dim_channel",
+        "toColumn": "channel_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "fact_bookings_market_segment_id_to_dim_market_segment_market_segment_id",
+        "fromTable": "fact_bookings",
+        "fromColumn": "market_segment_id",
+        "toTable": "dim_market_segment",
+        "toColumn": "market_segment_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "fact_bookings_customer_type_id_to_dim_customer_customer_type_id",
+        "fromTable": "fact_bookings",
+        "fromColumn": "customer_type_id",
+        "toTable": "dim_customer",
+        "toColumn": "customer_type_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "fact_bookings_room_type_id_to_dim_room_type_room_type_id",
+        "fromTable": "fact_bookings",
+        "fromColumn": "room_type_id",
+        "toTable": "dim_room_type",
+        "toColumn": "room_type_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "fact_bookings_country_id_to_dim_country_country_id",
+        "fromTable": "fact_bookings",
+        "fromColumn": "country_id",
+        "toTable": "dim_country",
+        "toColumn": "country_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "fact_daily_inventory_date_id_to_dim_date_date_id",
+        "fromTable": "fact_daily_inventory",
+        "fromColumn": "date_id",
+        "toTable": "dim_date",
+        "toColumn": "date_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "fact_daily_inventory_property_id_to_dim_property_property_id",
+        "fromTable": "fact_daily_inventory",
+        "fromColumn": "property_id",
+        "toTable": "dim_property",
+        "toColumn": "property_id",
+        "cardinality": "manyToOne",
+        "crossFilteringBehavior": "oneDirection"
+      }
+    ]
+  }
+}

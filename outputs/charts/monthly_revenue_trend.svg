@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="520" viewBox="0 0 1060 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="32.0" y="40.0" font-family="Arial" font-size="22" font-weight="700" text-anchor="start" fill="#1f2933">Monthly Realized Revenue and Lost Revenue</text>
+<text x="32.0" y="66.0" font-family="Arial" font-size="13" font-weight="400" text-anchor="start" fill="#1f2933">Monthly booking revenue, USD equivalent; lost revenue represents canceled booking value.</text>
+<line x1="72" y1="446" x2="1024" y2="446" stroke="#9aa5b1"/>
+<line x1="72" y1="86" x2="72" y2="446" stroke="#9aa5b1"/>
+<polyline points="72.0,302.8 110.1,226.4 148.2,200.9 186.2,269.2 224.3,380.6 262.4,352.8 300.5,393.8 338.6,343.5 376.6,283.1 414.7,247.8 452.8,226.7 490.9,192.8 529.0,159.1 567.0,112.1 605.1,182.4 643.2,224.3 681.3,296.0 719.4,319.9 757.4,344.2 795.5,317.8 833.6,268.6 871.7,190.8 909.8,155.0 947.8,135.9 985.9,108.1 1024.0,86.0" fill="none" stroke="#2563eb" stroke-width="3"/>
+<polyline points="72.0,381.0 110.1,357.3 148.2,388.7 186.2,410.4 224.3,427.4 262.4,417.0 300.5,424.9 338.6,405.5 376.6,386.2 414.7,367.7 452.8,364.7 490.9,354.6 529.0,314.0 567.0,254.0 605.1,334.6 643.2,333.8 681.3,389.6 719.4,367.6 757.4,390.0 795.5,387.1 833.6,367.1 871.7,304.2 909.8,291.9 947.8,284.0 985.9,215.2 1024.0,198.2" fill="none" stroke="#f97316" stroke-width="3"/>
+<rect x="760" y="34" width="14" height="14" fill="#2563eb"/>
+<text x="780.0" y="46.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Realized revenue</text>
+<rect x="900" y="34" width="14" height="14" fill="#f97316"/>
+<text x="920.0" y="46.0" font-family="Arial" font-size="12" font-weight="400" text-anchor="start" fill="#1f2933">Lost revenue</text>
+<text x="72.0" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2015-07</text>
+<text x="186.2" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2015-10</text>
+<text x="300.5" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2016-01</text>
+<text x="414.7" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2016-04</text>
+<text x="529.0" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2016-07</text>
+<text x="643.2" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2016-10</text>
+<text x="757.4" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2017-01</text>
+<text x="871.7" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2017-04</text>
+<text x="985.9" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2017-07</text>
+<text x="1024.0" y="478.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="middle" fill="#1f2933">2017-08</text>
+<line x1="68" y1="446.0" x2="1024" y2="446.0" stroke="#eef2f7"/>
+<text x="64.0" y="450.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="end" fill="#1f2933">$0.0M</text>
+<line x1="68" y1="356.0" x2="1024" y2="356.0" stroke="#eef2f7"/>
+<text x="64.0" y="360.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="end" fill="#1f2933">$0.5M</text>
+<line x1="68" y1="266.0" x2="1024" y2="266.0" stroke="#eef2f7"/>
+<text x="64.0" y="270.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="end" fill="#1f2933">$1.0M</text>
+<line x1="68" y1="176.0" x2="1024" y2="176.0" stroke="#eef2f7"/>
+<text x="64.0" y="180.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="end" fill="#1f2933">$1.5M</text>
+<line x1="68" y1="86.0" x2="1024" y2="86.0" stroke="#eef2f7"/>
+<text x="64.0" y="90.0" font-family="Arial" font-size="10" font-weight="400" text-anchor="end" fill="#1f2933">$2.0M</text>
+<text x="32.0" y="502.0" font-family="Arial" font-size="11" font-weight="400" text-anchor="start" fill="#1f2933">Source: StayWise generated analysis from public hotel booking data plus synthetic business context.</text>
+</svg>

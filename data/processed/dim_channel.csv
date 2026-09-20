@@ -1,0 +1,6 @@
+channel_id,distribution_channel,channel_name,channel_group,commission_rate
+CH001,Corporate,Corporate,Negotiated,0.03
+CH002,Direct,Direct,Owned,0.02
+CH003,GDS,GDS,Managed intermediary,0.1
+CH004,TA/TO,Travel Agent / Tour Operator,OTA / wholesale,0.18
+CH005,Undefined,Undefined,Unknown,0.12
